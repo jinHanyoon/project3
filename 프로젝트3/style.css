@@ -119,15 +119,7 @@ box-shadow: 10px 15px 20px rgb(0 0 0 / 19%);}
                width: 75px; display: inline-block;
                  float: left; background: url(./image/icons8-home-128.png);
                    background-repeat: no-repeat; background-size: cover;}
-                  
-
-
-
-
-
-
-
-
+   
 .page3_left li.on{transition: all 1.0s;
     border-radius: 30px;
     padding-right: 50px;
@@ -242,3 +234,26 @@ float: left; width: 50px; height: 50px;
                     color: rgb(92, 90, 90);} 
 .last_text{margin-top: 65px; color: black;}         
 .last_p{ color: rgb(92, 90, 90);}
+
+
+
+@media screen  and (max-width:1300px){
+    .header_in{width: 92%;margin: 0 auto;}
+    .logo{width: 11.5%;}
+    .nav{width: 92%; float: left;}
+    .nav_menu .nav_m li{width: 11.3%;
+            margin-left: 1.5%; }
+    .burger{width:20%; margin-top:1.1%;}
+    .burger li{width:10%; margin-left:1.5% ;}
+ 
+    .page1_contents{width: 92%; margin: 0 auto;}
+
+    .page2_contents{width: 92%; margin: 0 auto;}
+    .page2_contents ul li{width:21.5%;}
+    .page2_text{margin: 11.5% 2.3% 2.3% 2.3%;}
+}   .page2_text li{margin-left:0.7% ;}
+    .page2_text h2{margin-top: 0.7%; margin-left:2.5% ;}
+    .page2_text p{margin-top: 0.7%; margin-left: 2.5%;}
+    .page2_text span{width:3.8%; margin-top:10%;}
+
+   
