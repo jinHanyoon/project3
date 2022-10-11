@@ -1,5 +1,6 @@
 *{margin: 0; padding: 0;}
-section{width: 100%; height: 100vh; }
+section{width: 100%; height: 50vh; 
+}
 li,ul{list-style: none;}
 a{text-decoration: none;}
 
@@ -36,14 +37,14 @@ cursor: pointer;}
 
 
 
-.page1_contents{width: 1200px; height: 100vh;
+.page1_contents{width: 1200px; height: 80vh;
     margin: 0 auto; background: url(./image/pro3mainimg.jpg);
             background-size: cover; }
 
 
 
-.page2_contents{width: 1200px; height: 100vh;
-margin: 0 auto;
+.page2_contents{width: 1200px; height: auto;
+margin: 0 auto; 
 align-items: center;}
 .page2_contents ul{width: 100%; display: flex;
     justify-content:space-around;  }
@@ -84,7 +85,7 @@ color: white; transition: all 1.3s;
 box-shadow: 10px 15px 20px rgb(0 0 0 / 19%);}
 .page2_text h2.on1{color:white; transition: 1s all;}
 .page3{width: 1200px; margin: 0 auto; 
-        height: 100vh; }
+        height: 50vh; }
 .page3_left{width: 600px; position: relative;
      height: 700px; background-color: white; float: left;}
 .page3_right{z-index: 600;
@@ -174,7 +175,7 @@ background-repeat: no-repeat; background-size: cover;}
     
 
 footer{width: 1200px; margin: 0 auto; 
-      height: 500px;}
+      height: 300px;}
 
 
 .footer_left{width: 500px; height: 500px;
