@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BRAND</title>
     <link rel="stylesheet" href="style.css">
     <script src="./js/main.js"></script>
    
     <script>
         $(document).ready(function(){
-      
-
-
             $('.picture02').hide()
             $('.picture03').hide()
             $('.picture01').show()
@@ -23,29 +20,19 @@
                 n=$(this).index()
                 console.log(n)
                 color()
-
-
              //   $('.page2_text li').eq(n).addClass('on')
               //  $('.page2_text h2').eq(n).addClass('on1')
             },
             function(){
                 $('.page2_text h2').removeClass('on1')
                 $(this).removeClass('on')
-
           
              
            
       
             })
-            $('.page2_section').mouseenter(function(){
-                $('.page2_contents ul li').addClass('in')
-                
-                
-            })
-    
-       
 
-                        $('.page3_left li').hover(function(){
+            $('.page3_left li').hover(function(){
                 var t=$(this).index()
                 console.log(t)
                 if(t==0){
@@ -63,8 +50,6 @@
                     $('.picture01').hide()
                 }
                 $(this).addClass('on')
-                $('.page2_contents ul li').removeClass('in')
-
             },function(){
                 $(this).removeClass('on')
             })
@@ -166,9 +151,10 @@
             <div class="page2_contents">
                
                 <div class="page2_text">
-
                     <ul class="page2_info">
-                       <li><div class="more1"></div>
+                       <li><div class="more1">
+                    
+                       </div>
                     <h2>제품 기획 마케팅</h2>
                     <p>노하우를통한<br>
                     제품기획과 마케팅으로<br>
